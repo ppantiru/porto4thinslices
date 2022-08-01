@@ -1,0 +1,19 @@
+{
+    "login": "Autentificare",
+    "logout": "Deconectare",
+    "register": "Înregistrare",
+    "home": "Pagina principală",
+    "skills": "Abilitați / CV",
+    "portfolio": "Portofoliu",
+    "still-learning": "Înca învăț despre",
+    "problem-solving": "Cum rezolvăm probleme",
+    "fun": "Fun",
+    "score": "Scorul tău este",
+    "press-enter": "Apasă ↵ pentru a începe",
+    "press-up": "Folosește ↑ pentru a sări",
+    "fun-sumary": "Doar un joculeț banal pe care l-am facut invățând react.",
+    "why-not": "Pentru că \"de ce nu?\"",
+	"to-learn": "Topicuri despre care mai am de învățat",
+	"content-disclaimer": "Dacă sunt afișate lucruri dubioase, trebuie luat în considerare că acest conținut a fost generat pseudo-aleator folosind API-ul Wikipedia.",
+	"no-translation": "Scuze! Traducerea integrala a conținutului m-ar fi amânat prea mult 😟. Selectarea limbii având doar scop demonstrativ (la fel ca și sistemul de autentificare)."
+}

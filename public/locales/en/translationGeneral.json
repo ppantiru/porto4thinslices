@@ -1,0 +1,19 @@
+{
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "home": "Home",
+    "skills": "Skills / CV",
+    "portfolio": "Portfolio",
+    "still-learning": "Still learning",
+    "problem-solving": "Problem Solving",
+    "fun": "Fun",
+    "score": "Your score is",
+    "press-enter": "Pres ↵ to start",
+    "press-up": "Use ↑ to jump",
+    "fun-sumary": "Just a silly rudimentary 'lil game I made for fun when I was learning react.",
+    "why-not": "Cuz why not?",
+	"to-learn": "Things I still have to learn about",
+	"content-disclaimer": "If the there are weird stuff displayed please note that the content on this page is generated pseudo-randomly with the Wikipedia API.",
+	"no-translation": ""
+}

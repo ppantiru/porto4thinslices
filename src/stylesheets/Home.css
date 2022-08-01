@@ -1,0 +1,15 @@
+.aboutMe img {
+    width: 30vh;
+}
+.aboutMeImageSection {
+    float: right;
+    padding: 0 30px;
+}
+.contactInfo ul {
+    list-style-type: none;
+    font-style: italic;
+    padding: 0;
+}
+.aboutMeContent em{
+    color: #000;
+}
