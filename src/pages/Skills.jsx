@@ -30,7 +30,7 @@ function Skills() {
     <h2>Problem solver</h2>
     <p>I've basically written a paper on this, and I go into a lot more detail in the <a href='/problem-solving'>next tab</a>.</p>
     <p>The very short version is: Any problem can be solved if you understand it and actively look for the right perspective to approach it.</p>
-    <p>After going through different types of work withing the company I work for at the moment, development,
+    <p>After going through different types of work within the company I work for at the moment, development,
        infra, technical support and working with people of different skill levels
        I have on many occasions ended up with a task on my lap with the message "Stuff not working, we don't know why... pls fix!",
        Or the occasional "We want to... nay, we NEED to implement X" where the response had to always be "I have no clue how to do this, but I'll figure something out."
