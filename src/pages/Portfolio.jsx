@@ -74,7 +74,7 @@ function Portfolio() {
 
     ##Return a sorted list based on date and vol
     def sortList(list, is_reversed):
-          return sorted(list, key=lambda x: (backup_end_date(x), vol_suffix(x)), reverse=is_reversed)
+          return sorted(list, key=(backup_end_date(x), vol_suffix(x)), reverse=is_reversed)
 
     ##Returns an array containing all the backup files names in a directory and it's subdirectories (backups are determined by their encription .gpg extension)
     def getAllBackupFiles(path):
@@ -84,7 +84,7 @@ function Portfolio() {
         gpgFiles = list(glob(gpgFileFormat, recursive=True))
         gzFiles = list(glob(gzFileFormat, recursive=True))
         files =  gpgFiles + gzFiles
-        return sorted(files, key=lambda x: (backup_end_date(x), vol_suffix(x)))
+        return sorted(files, key=(backup_end_date(x), vol_suffix(x)))
       except globError:
         print("List of file could not be compiled")
 
@@ -304,7 +304,7 @@ function Portfolio() {
       history.close()
       newDiff = []
       newDiff = list(set(list0) - set(blistClean))
-      return sorted(newDiff, key=lambda x: (backup_end_date(x), vol_suffix(x)))
+      return sorted(newDiff, key=(backup_end_date(x), vol_suffix(x)))
 
     ##Removes form the memory file the lies coresponding to files that were deleted from duplicity
     def updateMemoryFile():
